@@ -6,7 +6,23 @@
         "When is the hackathon?",
         "What are the dates for Hack Horizon?",
         "When does the event start?",
-        "Hackathon schedule dates"
+        "Hackathon schedule dates",
+        "What day is the hackathon?",
+        "When is Hack Horizon happening?",
+        "Give me the event dates",
+        "When does the hackathon end?",
+        "How long is the hackathon?",
+        "Is it a 24-hour hackathon?",
+        "What are the timings for the event?",
+        "When should I reach the campus?",
+        "Date of Hack Horizon 2026",
+        "Schedule of the event",
+        "When is it scheduled?",
+        "Hackathon start and end date",
+        "Which month is the hackathon?",
+        "Tell me when the event takes place",
+        "Dates please",
+        "Is the hackathon in April?"
       ],
       "data": {
         "start_date": "April 10, 2026",
@@ -14,7 +30,7 @@
         "duration": "24-hour"
       },
       "response_templates": [
-        "Hack Horizon is a {duration} hackathon taking place on {start_date} and {end_date}[cite: 459, 533]."
+        "Hack Horizon is a {duration} hackathon taking place on {start_date} and {end_date}."
       ]
     },
     {
@@ -23,14 +39,30 @@
         "How much is the registration fee?",
         "Is there a cost to register?",
         "What is the fee per team?",
-        "Do we have to pay to participate?"
+        "Do we have to pay to participate?",
+        "What is the entry fee?",
+        "How much does it cost?",
+        "Is the hackathon free?",
+        "Fee details",
+        "Payment amount for registration",
+        "How much money to register?",
+        "Cost of participation",
+        "Do I need to pay?",
+        "What's the price for a team?",
+        "Tell me the registration cost",
+        "Is there an admission fee?",
+        "How much per person?",
+        "Team registration charges",
+        "What are the charges to enter?",
+        "Registration amount",
+        "Do we have to buy tickets?"
       ],
       "data": {
         "fee": "Rs 800/-",
         "unit": "per team"
       },
       "response_templates": [
-        "The registration fee is {fee} {unit}[cite: 608]."
+        "The registration fee is {fee} {unit}."
       ]
     },
     {
@@ -39,13 +71,29 @@
         "When is the last date to register?",
         "What is the registration deadline?",
         "When do registrations close?",
-        "Registration last date"
+        "Registration last date",
+        "Until when can I register?",
+        "Is registration still open?",
+        "When is the final day to sign up?",
+        "Deadline for applying",
+        "Application closing date",
+        "By what date do I need to register?",
+        "What is the cutoff date for registration?",
+        "When does the form close?",
+        "Last day to apply",
+        "Registration end date",
+        "When will registration stop?",
+        "Can I register on the day of the event?",
+        "Time left to register",
+        "Closing date for entries",
+        "When is the registration over?",
+        "Signup deadline"
       ],
       "data": {
         "deadline": "25th March 2026"
       },
       "response_templates": [
-        "Make sure to register before the deadline on {deadline}[cite: 610]."
+        "Make sure to register before the deadline on {deadline}."
       ]
     },
     {
@@ -54,28 +102,62 @@
         "What is the team size limit?",
         "How many members can be in a team?",
         "Can I participate alone?",
-        "Maximum team members"
+        "Maximum team members",
+        "Minimum team size",
+        "How big can a team be?",
+        "Is it an individual event?",
+        "Can we be a team of 2?",
+        "Can we have 6 members?",
+        "What are the team requirements?",
+        "How many people per team?",
+        "Do I need a team?",
+        "Team formation rules",
+        "Number of participants per team",
+        "Can I do this solo?",
+        "What's the max limit for a team?",
+        "What's the min limit for a team?",
+        "How many friends can I bring?",
+        "Group size limits",
+        "Team capacity"
       ],
       "data": {
         "min_members": 3,
         "max_members": 5
       },
       "response_templates": [
-        "You must register as a team with a minimum of {min_members} members and a maximum of {max_members} members[cite: 590]."
+        "You must register as a team with a minimum of {min_members} members and a maximum of {max_members} members."
       ]
     },
     {
       "name": "eligibility",
       "patterns": [
+        "eligibility criteria",
         "Who can participate?",
         "Am I eligible for this hackathon?",
-        "Is this open to all college students?"
+        "Is this open to all college students?",
+        "Can school students join?",
+        "Are professionals allowed?",
+        "Can graduates participate?",
+        "Who is this hackathon for?",
+        "Eligibility criteria",
+        "Do I need to be from ARKA JAIN University?",
+        "Is it only for engineering students?",
+        "Can students from other colleges participate?",
+        "Who can apply?",
+        "What are the qualifications to enter?",
+        "Are there any age restrictions?",
+        "Who is invited to hack?",
+        "Can anyone join?",
+        "Is there a specific branch required?",
+        "Requirements for participation",
+        "Who can register for this?",
+        "Are BCA or MCA students eligible?"
       ],
       "data": {
         "requirement": "enrolled in a recognizable educational institution"
       },
       "response_templates": [
-        "The hackathon is open to anyone currently {requirement}[cite: 589]."
+        "Here are the eligibility and participation rules:\n\n- The hackathon is open to anyone currently {requirement}.\n- Participants must register as a team of 3-5 members.\n- Each participant can only be part of one team."
       ]
     },
     {
@@ -84,13 +166,29 @@
         "What is the prize money?",
         "How much is the prize pool?",
         "What do the winners get?",
-        "Rewards and prizes"
+        "Rewards and prizes",
+        "Winning amount",
+        "Are there cash prizes?",
+        "What is the first prize?",
+        "How much will the winner get?",
+        "Total prize pool details",
+        "What are we competing for?",
+        "Are there goodies or swags?",
+        "Prize distribution",
+        "What do we win?",
+        "Is there a reward for winning?",
+        "Prizes for top teams",
+        "How much is the total reward?",
+        "Tell me about the prizes",
+        "Winning perks",
+        "What happens if we win?",
+        "Hackathon rewards"
       ],
       "data": {
         "amount": "Rs 50,000"
       },
       "response_templates": [
-        "Hack Horizon features a total prize pool of {amount}[cite: 681]."
+        "Hack Horizon features a total prize pool of {amount}."
       ]
     },
     {
@@ -99,89 +197,327 @@
         "What are the hackathon themes?",
         "Which domains can we build projects on?",
         "Topics for the hackathon",
-        "Available themes"
+        "Available themes",
+        "What should the project be about?",
+        "Categories for projects",
+        "What are the problem domains?",
+        "List of themes",
+        "Can we build anything?",
+        "What sectors are focused on?",
+        "Do you have specific topics?",
+        "Themes of Hack Horizon",
+        "What kind of app should we build?",
+        "Project ideas themes",
+        "Are there specific categories?",
+        "What is the theme this year?",
+        "Tell me the hackathon tracks",
+        "What tracks are available?",
+        "Can I do a project on healthcare?",
+        "Domains of the hackathon"
       ],
       "data": {
-        "theme_list": "Agriculture & Food, Governance & Civic Tech, Cities & Infrastructure, Community & Social Impact, Health & Wellness, and Environment & Sustainability"
+        "theme_list": "- Agriculture & Food\n- Governance & Civic Tech\n- Cities & Infrastructure\n- Community & Social Impact\n- Health & Wellness\n- Environment & Sustainability"
       },
       "response_templates": [
-        "The themes for Hack Horizon are: {theme_list}[cite: 631, 632, 634, 635, 636, 637]."
+        "The official themes for Hack Horizon are:\n\n{theme_list}"
       ]
     },
     {
-      "name": "problem_statements",
+      "name": "problem_statements_list",
       "patterns": [
-        "What are the problem statements?",
+        "List problem statements",
+        "List of problem statements",
+        "What are all the problem statements?",
         "Can you give me examples of problems to solve?",
         "Sample problems",
-        "What kind of projects are expected?"
+        "What kind of projects are expected?",
+        "Where can I find the challenges?",
+        "What are the specific challenges?",
+        "Can I see some sample ideas?",
+        "What problems do we need to solve?",
+        "Examples of projects",
+        "Are the problem statements fixed?",
+        "What is the task?",
+        "What are the hackathon questions?",
+        "What to build?",
+        "Give me project ideas from the brochure",
+        "Problem statements for the event",
+        "Challenges provided",
+        "Show me all the problems",
+        "problem statements",
+        "problem statement",
+        "give me problem statements"
       ],
       "data": {
-        "problems": "1. Environmental Risk Alert App, 2. Personal Medical History Vault, 3. Smart Campus Services Hub, 4. Document-Based Adaptive Quiz and Flashcard System"
+        "problems": "Problem 1: Environmental Risk Alert Application\nProblem 2: Personal Medical History Vault\nProblem 3: Smart Campus Services Hub\nProblem 4: Document-Based Adaptive Quiz and Flashcard System"
       },
       "response_templates": [
-        "Here are a few sample problem statements provided for the hackathon: {problems}[cite: 397, 405, 417, 424]."
+        "Here are the problem statements provided for the hackathon:\n{problems}\nYou can ask me for the 'details of Problem 1', 'Problem 2', etc., to know their specific requirements and objectives!"
+      ]
+    },
+    {
+      "name": "problem_1_details",
+      "patterns": [
+        "problem statement 1",
+        "Tell me about problem 1",
+        "Explain problem 1",
+        "What is the first problem statement?",
+        "Details of problem 1",
+        "Environmental Risk Alert Application details",
+        "What is the environmental risk app?",
+        "Requirements for problem 1",
+        "Objective of problem 1",
+        "How to solve problem 1",
+        "What do we build for problem 1?",
+        "Problem 1 requirements",
+        "Problem 1 description",
+        "Describe the first challenge",
+        "What is the environment problem statement?",
+        "Details for environmental risk alert",
+        "Can you explain the first project?",
+        "What is the expected outcome for problem 1?",
+        "Information on problem 1",
+        "Environmental risk alert app guidelines"
+      ],
+      "data": {
+        "title": "Problem 1: Environmental Risk Alert Application",
+        "objective": "Build an application that monitors environmental conditions for a user's location and alerts the user only when conditions become harmful or dangerous.",
+        "requirements": "- Obtain environmental data (AQI, weather, UV index, temperature, traffic)\n- Evaluate data to detect dangerous conditions\n- Notify user only in severe cases (avoid unnecessary alerts)\n- Display the reason for each alert",
+        "outcome": "A working system that alerts users only during genuinely high-risk environmental conditions."
+      },
+      "response_templates": [
+        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+      ]
+    },
+    {
+      "name": "problem_2_details",
+      "patterns": [
+        "problem statement 2",
+        "Tell me about problem 2",
+        "Explain problem 2",
+        "What is the second problem statement?",
+        "Details of problem 2",
+        "Personal Medical History Vault details",
+        "What is the medical history vault?",
+        "Requirements for problem 2",
+        "Objective of problem 2",
+        "How to solve problem 2",
+        "What do we build for problem 2?",
+        "Problem 2 requirements",
+        "Problem 2 description",
+        "Describe the second challenge",
+        "What is the medical problem statement?",
+        "Details for personal medical history vault",
+        "Can you explain the second project?",
+        "What is the expected outcome for problem 2?",
+        "Information on problem 2",
+        "Medical history vault app guidelines"
+      ],
+      "data": {
+        "title": "Problem 2: Personal Medical History Vault",
+        "objective": "Build a secure app to organize all medical records, photos of medicines, prescriptions, and scan results in one place with smart categorization.",
+        "requirements": "- Upload photos/images of medicines, prescriptions, dental records, scans\n- Use image recognition or manual tags to auto-categorize\n- Store visit history with dates, doctors, notes, and enable search\n- Provide reminders for expiring prescriptions or checkups\n- Export records as PDF for doctors",
+        "outcome": "A complete personal health archive that's easy to navigate and instantly accessible during emergencies."
+      },
+      "response_templates": [
+        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+      ]
+    },
+    {
+      "name": "problem_3_details",
+      "patterns": [
+        "problem statement 3",
+        "Tell me about problem 3",
+        "Explain problem 3",
+        "What is the third problem statement?",
+        "Details of problem 3",
+        "Smart Campus Services Hub details",
+        "What is the smart campus app?",
+        "Requirements for problem 3",
+        "Objective of problem 3",
+        "How to solve problem 3",
+        "What do we build for problem 3?",
+        "Problem 3 requirements",
+        "Problem 3 description",
+        "Describe the third challenge",
+        "What is the campus problem statement?",
+        "Details for smart campus services hub",
+        "Can you explain the third project?",
+        "What is the expected outcome for problem 3?",
+        "Information on problem 3",
+        "Smart campus hub app guidelines"
+      ],
+      "data": {
+        "title": "Problem 3: Smart Campus Services Hub",
+        "objective": "Build a unified app consolidating all non-academic campus services (canteen, maintenance, lost & found, transport) into one responsive platform.",
+        "requirements": "- Canteen pre-ordering with live kitchen status & pickup ETA\n- Issue reporting: photo + GPS pin for fixes\n- Lost & found: image upload + auto-notify finder\n- Event discovery: department-wise push notifications\n- Interactive campus map: you-are-here dot + pathfinding",
+        "outcome": "Single app replaces 7 WhatsApp groups + manual processes, saving students 30+ minutes daily on campus logistics."
+      },
+      "response_templates": [
+        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+      ]
+    },
+    {
+      "name": "problem_4_details",
+      "patterns": [
+        "problem statement 4",
+        "Tell me about problem 4",
+        "Explain problem 4",
+        "What is the fourth problem statement?",
+        "Details of problem 4",
+        "Document-Based Adaptive Quiz details",
+        "What is the flashcard system?",
+        "Requirements for problem 4",
+        "Objective of problem 4",
+        "How to solve problem 4",
+        "What do we build for problem 4?",
+        "Problem 4 requirements",
+        "Problem 4 description",
+        "Describe the fourth challenge",
+        "What is the quiz problem statement?",
+        "Details for adaptive quiz and flashcard system",
+        "Can you explain the fourth project?",
+        "What is the expected outcome for problem 4?",
+        "Information on problem 4",
+        "Flashcard system app guidelines"
+      ],
+      "data": {
+        "title": "Problem 4: Document-Based Adaptive Quiz and Flashcard System",
+        "objective": "Allow users to upload slides, PDFs, assignments, notes, and question banks, and automatically convert them into quizzes and flashcards with spaced repetition.",
+        "requirements": "- Auto-extract questions/concepts from uploads to generate MCQs/flashcards\n- Smart Retry: Incorrect questions reappear at spaced intervals\n- Mastery Heatmap: Displays topic-wise performance\n- Timed Quiz Mode & Weak Area Drill\n- Export report with confidence scores",
+        "outcome": "A system that converts uploaded academic material into structured quizzes and flashcards, monitors performance, and adapts practice."
+      },
+      "response_templates": [
+        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
       ]
     },
     {
       "name": "venue_location",
       "patterns": [
+        "hackathon venue",
         "Where is the hackathon happening?",
         "What is the venue?",
         "Is it online or offline?",
-        "Location of the event"
+        "Location of the event",
+        "Where do I need to go?",
+        "Which campus is hosting it?",
+        "Address of the hackathon",
+        "Is this a virtual hackathon?",
+        "Do we have to be physically present?",
+        "Where is Hack Horizon?",
+        "Event place",
+        "In which city is this?",
+        "Where is ARKA JAIN University?",
+        "Location details",
+        "Is it an in-person event?",
+        "Tell me the venue",
+        "Where will it be held?",
+        "Hackathon host location",
+        "Campus name",
+        "How to reach the venue?"
       ],
       "data": {
         "venue": "ARKA JAIN University, Jharkhand",
         "mode": "offline"
       },
       "response_templates": [
-        "The event will be held completely {mode} at the {venue} campus[cite: 441, 459]."
+        "The event will be held completely {mode} at the {venue} campus."
       ]
     },
     {
       "name": "facilities",
       "patterns": [
+        "facilities provided",
         "Will food be provided?",
         "Is accommodation available?",
         "Do we get internet access?",
-        "What facilities are there during the 24 hours?"
+        "What facilities are there during the 24 hours?",
+        "Do we need to bring our own food?",
+        "Will there be WiFi?",
+        "Where will we sleep?",
+        "Are meals included?",
+        "Do we get dinner and breakfast?",
+        "Is there a place to rest?",
+        "What amenities are provided?",
+        "Will you give us internet?",
+        "Food and stay arrangements",
+        "Accommodation details",
+        "Is it free stay?",
+        "What about snacks and refreshments?",
+        "Will you provide coffee?",
+        "Facilities at the venue",
+        "Do I need to arrange my own stay?",
+        "What is provided at the campus?"
       ],
       "data": {
         "perks": "free accommodation, dinner, refreshments on both days, and high-speed internet"
       },
       "response_templates": [
-        "Participants will be provided with {perks}[cite: 686, 687, 688, 689]."
+        "Participants will be provided with {perks}."
       ]
     },
     {
       "name": "rules",
       "patterns": [
+        "rules",
         "What are the rules?",
         "Are there any coding rules?",
         "Can we leave the campus?",
-        "GitHub repository rules"
+        "GitHub repository rules",
+        "Code of conduct",
+        "Are there specific guidelines?",
+        "Rules and regulations",
+        "Can we use pre-written code?",
+        "What are the strict rules?",
+        "What leads to disqualification?",
+        "Can I go home at night?",
+        "Do we have to use GitHub?",
+        "Submission rules",
+        "What happens if we break a rule?",
+        "Are there any restrictions?",
+        "Can we push all code at the end?",
+        "Rulebook details",
+        "Things not to do",
+        "What is allowed and what is not?",
+        "Hackathon policies"
       ],
       "data": {
         "key_rules": "Teams must create a new GitHub repo, push code at intervals, build an original solution, and stay on campus until the closing ceremony"
       },
       "response_templates": [
-        "A few important rules: {key_rules}. Don't forget to bring your own laptops and a valid ID! [cite: 594, 595, 596, 597, 599]"
+        "A few important rules: {key_rules}. Don't forget to bring your own laptops and a valid ID!"
       ]
     },
     {
       "name": "contact_info",
       "patterns": [
+        "contact information",
         "How can I contact the organizers?",
         "Email ID for queries",
         "Help desk contact",
-        "Who do I call for doubts?"
+        "Who do I call for doubts?",
+        "Organizer phone numbers",
+        "Who is the point of contact?",
+        "How to reach the team?",
+        "Contact details",
+        "Where can I ask more questions?",
+        "Customer support or help",
+        "Email address of Hack Horizon",
+        "Whom to contact if I face issues?",
+        "Are there any student coordinators?",
+        "Phone number for help",
+        "How to get in touch?",
+        "Organizing committee contact",
+        "Any helpline number?",
+        "Can I email someone?",
+        "Who should I talk to for registration problems?",
+        "Support contact"
       ],
       "data": {
         "email": "hackhorizon@arkajainuniversity.ac.in"
       },
       "response_templates": [
-        "For any queries, you can email the organizing team at {email}[cite: 790]."
+        "For any queries, you can email the organizing team at {email}."
       ]
     }
   ]

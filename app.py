@@ -7,7 +7,8 @@ app = Flask(__name__)
 
 # Load the structured knowledge base
 try:
-    with open('knowledge_base.json', 'r') as file:
+    # ADDED: encoding='utf-8' prevents the strange symbol errors
+    with open('knowledge_base.json', 'r', encoding='utf-8') as file:
         kb = json.load(file)
 except FileNotFoundError:
     print("Error: knowledge_base.json not found. Make sure it is in the same directory.")
