@@ -4,6 +4,9 @@
       "name": "event_dates",
       "patterns": [
         "When is the hackathon?",
+        "event duration",
+        "timing of the hackathon",
+        "time",
         "What are the dates for Hack Horizon?",
         "When does the event start?",
         "Hackathon schedule dates",
