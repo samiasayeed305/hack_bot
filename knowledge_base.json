@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "name": "event_dates",
+      "patterns": [
+        "When is the hackathon?",
+        "What are the dates for Hack Horizon?",
+        "When does the event start?",
+        "Hackathon schedule dates"
+      ],
+      "data": {
+        "start_date": "April 10, 2026",
+        "end_date": "April 11, 2026",
+        "duration": "24-hour"
+      },
+      "response_templates": [
+        "Hack Horizon is a {duration} hackathon taking place on {start_date} and {end_date}[cite: 459, 533]."
+      ]
+    },
+    {
+      "name": "registration_fee",
+      "patterns": [
+        "How much is the registration fee?",
+        "Is there a cost to register?",
+        "What is the fee per team?",
+        "Do we have to pay to participate?"
+      ],
+      "data": {
+        "fee": "Rs 800/-",
+        "unit": "per team"
+      },
+      "response_templates": [
+        "The registration fee is {fee} {unit}[cite: 608]."
+      ]
+    },
+    {
+      "name": "registration_deadline",
+      "patterns": [
+        "When is the last date to register?",
+        "What is the registration deadline?",
+        "When do registrations close?",
+        "Registration last date"
+      ],
+      "data": {
+        "deadline": "25th March 2026"
+      },
+      "response_templates": [
+        "Make sure to register before the deadline on {deadline}[cite: 610]."
+      ]
+    },
+    {
+      "name": "team_size",
+      "patterns": [
+        "What is the team size limit?",
+        "How many members can be in a team?",
+        "Can I participate alone?",
+        "Maximum team members"
+      ],
+      "data": {
+        "min_members": 3,
+        "max_members": 5
+      },
+      "response_templates": [
+        "You must register as a team with a minimum of {min_members} members and a maximum of {max_members} members[cite: 590]."
+      ]
+    },
+    {
+      "name": "eligibility",
+      "patterns": [
+        "Who can participate?",
+        "Am I eligible for this hackathon?",
+        "Is this open to all college students?"
+      ],
+      "data": {
+        "requirement": "enrolled in a recognizable educational institution"
+      },
+      "response_templates": [
+        "The hackathon is open to anyone currently {requirement}[cite: 589]."
+      ]
+    },
+    {
+      "name": "prize_pool",
+      "patterns": [
+        "What is the prize money?",
+        "How much is the prize pool?",
+        "What do the winners get?",
+        "Rewards and prizes"
+      ],
+      "data": {
+        "amount": "Rs 50,000"
+      },
+      "response_templates": [
+        "Hack Horizon features a total prize pool of {amount}[cite: 681]."
+      ]
+    },
+    {
+      "name": "themes",
+      "patterns": [
+        "What are the hackathon themes?",
+        "Which domains can we build projects on?",
+        "Topics for the hackathon",
+        "Available themes"
+      ],
+      "data": {
+        "theme_list": "Agriculture & Food, Governance & Civic Tech, Cities & Infrastructure, Community & Social Impact, Health & Wellness, and Environment & Sustainability"
+      },
+      "response_templates": [
+        "The themes for Hack Horizon are: {theme_list}[cite: 631, 632, 634, 635, 636, 637]."
+      ]
+    },
+    {
+      "name": "problem_statements",
+      "patterns": [
+        "What are the problem statements?",
+        "Can you give me examples of problems to solve?",
+        "Sample problems",
+        "What kind of projects are expected?"
+      ],
+      "data": {
+        "problems": "1. Environmental Risk Alert App, 2. Personal Medical History Vault, 3. Smart Campus Services Hub, 4. Document-Based Adaptive Quiz and Flashcard System"
+      },
+      "response_templates": [
+        "Here are a few sample problem statements provided for the hackathon: {problems}[cite: 397, 405, 417, 424]."
+      ]
+    },
+    {
+      "name": "venue_location",
+      "patterns": [
+        "Where is the hackathon happening?",
+        "What is the venue?",
+        "Is it online or offline?",
+        "Location of the event"
+      ],
+      "data": {
+        "venue": "ARKA JAIN University, Jharkhand",
+        "mode": "offline"
+      },
+      "response_templates": [
+        "The event will be held completely {mode} at the {venue} campus[cite: 441, 459]."
+      ]
+    },
+    {
+      "name": "facilities",
+      "patterns": [
+        "Will food be provided?",
+        "Is accommodation available?",
+        "Do we get internet access?",
+        "What facilities are there during the 24 hours?"
+      ],
+      "data": {
+        "perks": "free accommodation, dinner, refreshments on both days, and high-speed internet"
+      },
+      "response_templates": [
+        "Participants will be provided with {perks}[cite: 686, 687, 688, 689]."
+      ]
+    },
+    {
+      "name": "rules",
+      "patterns": [
+        "What are the rules?",
+        "Are there any coding rules?",
+        "Can we leave the campus?",
+        "GitHub repository rules"
+      ],
+      "data": {
+        "key_rules": "Teams must create a new GitHub repo, push code at intervals, build an original solution, and stay on campus until the closing ceremony"
+      },
+      "response_templates": [
+        "A few important rules: {key_rules}. Don't forget to bring your own laptops and a valid ID! [cite: 594, 595, 596, 597, 599]"
+      ]
+    },
+    {
+      "name": "contact_info",
+      "patterns": [
+        "How can I contact the organizers?",
+        "Email ID for queries",
+        "Help desk contact",
+        "Who do I call for doubts?"
+      ],
+      "data": {
+        "email": "hackhorizon@arkajainuniversity.ac.in"
+      },
+      "response_templates": [
+        "For any queries, you can email the organizing team at {email}[cite: 790]."
+      ]
+    }
+  ]
+}
