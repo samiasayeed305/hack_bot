@@ -157,7 +157,7 @@
         "requirement": "enrolled in a recognizable educational institution"
       },
       "response_templates": [
-        "Here are the eligibility and participation rules:\n\n- The hackathon is open to anyone currently {requirement}.\n- Participants must register as a team of 3-5 members.\n- Each participant can only be part of one team."
+        "Here are the eligibility and participation criteria:\n\n• The hackathon is open to anyone currently {requirement}.\n• Participants must register as a team of 3 to 5 members.\n• Each participant can only be part of one team."
       ]
     },
     {
@@ -216,21 +216,21 @@
         "Domains of the hackathon"
       ],
       "data": {
-        "theme_list": "- Agriculture & Food\n- Governance & Civic Tech\n- Cities & Infrastructure\n- Community & Social Impact\n- Health & Wellness\n- Environment & Sustainability"
+        "theme_list": "• Agriculture & Food\n• Governance & Civic Tech\n• Cities & Infrastructure\n• Community & Social Impact\n• Health & Wellness\n• Environment & Sustainability"
       },
       "response_templates": [
-        "The official themes for Hack Horizon are:\n\n{theme_list}"
+        "The official themes for Hack Horizon 2.0 are:\n\n{theme_list}"
       ]
     },
     {
       "name": "problem_statements_list",
       "patterns": [
-        "List problem statements",
-        "List of problem statements",
-        "What are all the problem statements?",
+        "What are the problem statements?",
+        "List all problem statements",
         "Can you give me examples of problems to solve?",
         "Sample problems",
         "What kind of projects are expected?",
+        "Do you provide the problem statements?",
         "Where can I find the challenges?",
         "What are the specific challenges?",
         "Can I see some sample ideas?",
@@ -239,20 +239,17 @@
         "Are the problem statements fixed?",
         "What is the task?",
         "What are the hackathon questions?",
-        "What to build?",
+        "List of topics",
         "Give me project ideas from the brochure",
         "Problem statements for the event",
         "Challenges provided",
-        "Show me all the problems",
-        "problem statements",
-        "problem statement",
-        "give me problem statements"
+        "Show me all the problems"
       ],
       "data": {
-        "problems": "Problem 1: Environmental Risk Alert Application\nProblem 2: Personal Medical History Vault\nProblem 3: Smart Campus Services Hub\nProblem 4: Document-Based Adaptive Quiz and Flashcard System"
+        "problems": "• Problem 1: Environmental Risk Alert Application\n• Problem 2: Personal Medical History Vault\n• Problem 3: Smart Campus Services Hub\n• Problem 4: Document-Based Adaptive Quiz and Flashcard System"
       },
       "response_templates": [
-        "Here are the problem statements provided for the hackathon:\n{problems}\nYou can ask me for the 'details of Problem 1', 'Problem 2', etc., to know their specific requirements and objectives!"
+        "Here are the officially provided problem statements for the hackathon:\n\n{problems}\n\nyou can ask me for 'Problem 1 details', 'Problem 2 details', etc., to read their specific requirements and expected outcomes."
       ]
     },
     {
@@ -272,21 +269,21 @@
         "Problem 1 requirements",
         "Problem 1 description",
         "Describe the first challenge",
-        "What is the environment problem statement?",
+        "What is the environment problem?",
         "Details for environmental risk alert",
         "Can you explain the first project?",
-        "What is the expected outcome for problem 1?",
+        "Expected outcome for problem 1",
         "Information on problem 1",
-        "Environmental risk alert app guidelines"
+        "Environmental risk alert guidelines"
       ],
       "data": {
         "title": "Problem 1: Environmental Risk Alert Application",
         "objective": "Build an application that monitors environmental conditions for a user's location and alerts the user only when conditions become harmful or dangerous.",
-        "requirements": "- Obtain environmental data (AQI, weather, UV index, temperature, traffic)\n- Evaluate data to detect dangerous conditions\n- Notify user only in severe cases (avoid unnecessary alerts)\n- Display the reason for each alert",
-        "outcome": "A working system that alerts users only during genuinely high-risk environmental conditions."
+        "requirements": "• Obtain environmental data (such as AQI, weather, UV index, temperature, or traffic) for a specific location.\n• Evaluate the incoming data to detect dangerous conditions.\n• Notify the user only in severe cases, deliberately avoiding unnecessary or spam alerts.\n• Clearly display the reason for each generated alert.",
+        "outcome": "A fully functional working system that alerts users only during genuinely high-risk environmental conditions."
       },
       "response_templates": [
-        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+        "**{title}**\n\n**Objective:**\n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:**\n{outcome}"
       ]
     },
     {
@@ -306,21 +303,21 @@
         "Problem 2 requirements",
         "Problem 2 description",
         "Describe the second challenge",
-        "What is the medical problem statement?",
+        "What is the medical problem?",
         "Details for personal medical history vault",
         "Can you explain the second project?",
-        "What is the expected outcome for problem 2?",
+        "Expected outcome for problem 2",
         "Information on problem 2",
-        "Medical history vault app guidelines"
+        "Medical history vault guidelines"
       ],
       "data": {
         "title": "Problem 2: Personal Medical History Vault",
-        "objective": "Build a secure app to organize all medical records, photos of medicines, prescriptions, and scan results in one place with smart categorization.",
-        "requirements": "- Upload photos/images of medicines, prescriptions, dental records, scans\n- Use image recognition or manual tags to auto-categorize\n- Store visit history with dates, doctors, notes, and enable search\n- Provide reminders for expiring prescriptions or checkups\n- Export records as PDF for doctors",
-        "outcome": "A complete personal health archive that's easy to navigate and instantly accessible during emergencies."
+        "objective": "Build a secure application to organize all personal medical records, photos of medicines, prescriptions, and scan results in one centralized place with smart categorization.",
+        "requirements": "• Allow users to upload photos and images of medicines, prescriptions, dental records, and medical scans.\n• Implement image recognition or manual tagging to auto-categorize files by type (e.g., Dental, General Health, Prescription, Lab Results, Vaccinations).\n• Store clinical visit history including dates, doctor details, and notes, enabling a search function by date or condition.\n• Provide system reminders only for expiring prescriptions or upcoming checkups.\n• Enable the exporting of organized records as a PDF document for seamless sharing with doctors.",
+        "outcome": "A complete, secure personal health archive that is easy to navigate and instantly accessible during medical emergencies."
       },
       "response_templates": [
-        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+        "**{title}**\n\n**Objective:**\n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:**\n{outcome}"
       ]
     },
     {
@@ -340,21 +337,21 @@
         "Problem 3 requirements",
         "Problem 3 description",
         "Describe the third challenge",
-        "What is the campus problem statement?",
+        "What is the campus problem?",
         "Details for smart campus services hub",
         "Can you explain the third project?",
-        "What is the expected outcome for problem 3?",
+        "Expected outcome for problem 3",
         "Information on problem 3",
-        "Smart campus hub app guidelines"
+        "Smart campus hub guidelines"
       ],
       "data": {
         "title": "Problem 3: Smart Campus Services Hub",
-        "objective": "Build a unified app consolidating all non-academic campus services (canteen, maintenance, lost & found, transport) into one responsive platform.",
-        "requirements": "- Canteen pre-ordering with live kitchen status & pickup ETA\n- Issue reporting: photo + GPS pin for fixes\n- Lost & found: image upload + auto-notify finder\n- Event discovery: department-wise push notifications\n- Interactive campus map: you-are-here dot + pathfinding",
-        "outcome": "Single app replaces 7 WhatsApp groups + manual processes, saving students 30+ minutes daily on campus logistics."
+        "objective": "Build a unified application that consolidates all non-academic campus services (such as the canteen, maintenance, lost & found, and transport) into one responsive platform.",
+        "requirements": "• Canteen Module: Enable pre-ordering with live kitchen status updates and pickup ETAs.\n• Maintenance Module: Allow issue reporting utilizing photo uploads and GPS pins for cleanliness, electricity, or plumbing fixes.\n• Lost & Found Module: Support image uploads and automatically notify the finder when a potential match is reported.\n• Event Discovery: Implement department-wise push notifications for upcoming workshops and fests.\n• Campus Map: Integrate an interactive campus map featuring a 'you-are-here' dot and pathfinding logic to any building.",
+        "outcome": "A single application that replaces multiple WhatsApp groups and manual administrative processes, saving students 30+ minutes daily on campus logistics."
       },
       "response_templates": [
-        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+        "**{title}**\n\n**Objective:**\n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:**\n{outcome}"
       ]
     },
     {
@@ -374,21 +371,21 @@
         "Problem 4 requirements",
         "Problem 4 description",
         "Describe the fourth challenge",
-        "What is the quiz problem statement?",
-        "Details for adaptive quiz and flashcard system",
+        "What is the quiz problem?",
+        "Details for adaptive quiz system",
         "Can you explain the fourth project?",
-        "What is the expected outcome for problem 4?",
+        "Expected outcome for problem 4",
         "Information on problem 4",
-        "Flashcard system app guidelines"
+        "Flashcard system guidelines"
       ],
       "data": {
         "title": "Problem 4: Document-Based Adaptive Quiz and Flashcard System",
-        "objective": "Allow users to upload slides, PDFs, assignments, notes, and question banks, and automatically convert them into quizzes and flashcards with spaced repetition.",
-        "requirements": "- Auto-extract questions/concepts from uploads to generate MCQs/flashcards\n- Smart Retry: Incorrect questions reappear at spaced intervals\n- Mastery Heatmap: Displays topic-wise performance\n- Timed Quiz Mode & Weak Area Drill\n- Export report with confidence scores",
-        "outcome": "A system that converts uploaded academic material into structured quizzes and flashcards, monitors performance, and adapts practice."
+        "objective": "Create a system that allows users to upload academic material (slides, PDFs, assignments, notes) and automatically converts them into interactive quizzes and flashcards utilizing spaced repetition.",
+        "requirements": "• Data Extraction: Automatically extract questions and key concepts from uploaded files to generate MCQs and flashcards.\n• Smart Retry Logic: Ensure incorrect questions reappear to the user at strategically spaced intervals (e.g., 10 min → 1 hr → 1 day).\n• Mastery Heatmap: Display visual, topic-wise performance metrics (e.g., Topic A: 92%, Topic B: 34%).\n• Practice Modes: Include a 'Timed Quiz Mode' with accuracy tracking and streak indicators, alongside a 'Weak Area Drill' that generates focused questions from low-performing topics.\n• Exporting: Allow users to export a report featuring their topic-wise confidence scores and a progress summary.",
+        "outcome": "An intelligent system that seamlessly converts raw academic material into structured learning tools, actively monitoring user performance and adapting to improve the understanding of weaker topics."
       },
       "response_templates": [
-        "**{title}**\n\n**Objective:** \n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:** \n{outcome}"
+        "**{title}**\n\n**Objective:**\n{objective}\n\n**Requirements:**\n{requirements}\n\n**Expected Outcome:**\n{outcome}"
       ]
     },
     {
