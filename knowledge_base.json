@@ -225,6 +225,8 @@
     {
       "name": "problem_statements_list",
       "patterns": [
+        "problem statement list",
+        "problem statements",
         "What are the problem statements?",
         "List all problem statements",
         "Can you give me examples of problems to solve?",
